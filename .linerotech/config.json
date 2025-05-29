@@ -1,0 +1,54 @@
+{
+  "showSimplifiedView": true,
+  "sourcePath": "src",
+  "chapters": [
+    {
+      "path": "tasks",
+      "presentation": {
+        "title": "Tasks"
+      },
+      "assignments": [
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task1/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx//task2/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task3/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task4/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task5/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task6/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task7/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task8/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task9/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/exams/programming/exam_2/v2_tmhnx/task10/"
+        }
+      ]
+    }
+  ]
+}
