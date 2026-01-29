@@ -5,7 +5,8 @@ from to_do import TODO
 def task7(items: list[dict[str, Any]]) -> str:
 
     result = ""
-    for product,details in items.items():
+
+    for product in items:
 
 
     return result
