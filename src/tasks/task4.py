@@ -25,6 +25,6 @@ if __name__ == "__main__":
     "costs" : [None, 800.0, None, 700.0]},
     "Gamma":{
     "project-id" : 33,
-    "costs" : [600.0, None, None, 500.0]
-    }}))
+    "costs" : [600.0, None, None, 500.0]}}))
+
 
