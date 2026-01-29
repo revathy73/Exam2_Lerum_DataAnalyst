@@ -17,7 +17,7 @@ def task3(text: str) -> dict[str, int]:
         if word[0] == word[-1]:
             no_of_word += 1
             if word[0] not in result:
-               result[word[0]] = no_of_word
+               result[word[0]] = new_text.count(word)
 
     return result
 
