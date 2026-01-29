@@ -6,25 +6,20 @@ def task4(projects: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
     result = {}
 
     for project, details in projects.items():
-         cost_value = details["costs"]
-         for cost in cost_value:
-             if cost == "None":
-                cost.replace("None", -10)
-             else:
-                 cost *= 2
+        id = details["id"]
+        costs = details["costs"]
+
+        new_costs = []
+
+        for cost in costs:
+            if cost is None:
+                new_costs.append(-10.0)
+            else:
+                new_costs.append(cost * 2)
+
+        result[project] = {"project-id": id, "costs": new_costs}
+
     return result
 
-if __name__ == "__main__":
-
-    print(task4({
-    "Alpha" : {
-    "project-id" : 11,
-    "costs" : [1200.0, None, 950.0, None]},
-    "Beta":{
-    "project-id":22,
-    "costs" : [None, 800.0, None, 700.0]},
-    "Gamma":{
-    "project-id" : 33,
-    "costs" : [600.0, None, None, 500.0]}}))
 
 
