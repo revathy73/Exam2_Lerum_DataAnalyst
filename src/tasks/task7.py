@@ -9,6 +9,7 @@ def task7(items: list[dict[str, Any]]) -> str:
     for product in items:
 
 
+
     return result
 
 if __name__ == "__main__":

@@ -3,6 +3,15 @@ from to_do import TODO
 
 
 def task4(projects: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = {}
+
+    for project, details in projects.items():
+         cost_value = details["costs"]
+         for cost,value in cost_value.items():
+             if value == "None"
+                value.replace("None", -10)
+    return result
+
+if __name__ == "__main__":
+
+    print(task4())
