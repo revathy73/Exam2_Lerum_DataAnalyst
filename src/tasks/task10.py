@@ -1,27 +1,25 @@
 class Avatar:
 
-    def __init__(self,stamina = 8,experience = 0) -> int:
-        self.__stamina = stamina
-        self.__experience = experience
+    def __init__(self):
+        self.__stamina = 8
+        self.__experience = 0
 
     @property
+    def stamina(self) -> int:
+        return self.__stamina
+
+    @property
+    def experience(self) -> int:
+        return self.__experience
+
     def train(self):
         self.__stamina -= 1
 
-    @property
     def rest(self):
         self.__stamina += 1
 
-    @property
     def evolve(self):
         self.__experience += 1
-
-if __name__ == "__main__":
-
-    value = Avatar(10,8)
-
-
-
 
 
 
