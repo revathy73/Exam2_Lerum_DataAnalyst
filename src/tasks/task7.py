@@ -3,6 +3,17 @@ from to_do import TODO
 
 
 def task7(items: list[dict[str, Any]]) -> str:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    result = ""
+    for product,details in items.items():
+
+
+    return result
+
+if __name__ == "__main__":
+    print(task7(items=[
+    {
+        "name" : "Apple",
+        "quantity" : 4,
+        "price" : 0.75
+    }]))
