@@ -1,8 +1,8 @@
 class Avatar:
 
-    def __init__(self,stamina,experience) -> int:
-        self.__stamina = 8
-        self.__experience = 0
+    def __init__(self,stamina = 8,experience = 0) -> int:
+        self.__stamina = stamina
+        self.__experience = experience
 
     @property
     def train(self):
