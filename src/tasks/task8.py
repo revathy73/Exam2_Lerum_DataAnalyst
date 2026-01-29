@@ -13,6 +13,8 @@ def task8(sentence: str) -> bool:
             value = total - 1
             if value % 5 == 0:
                 result = True
+            else:
+                result = False
     return result
 
 if __name__ == "__main__":
